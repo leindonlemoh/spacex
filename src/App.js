@@ -13,9 +13,9 @@ class App extends React.Component {
       }
     );
     this.setState({ images: response.data.links });
-    this.setState({ images: response.data.flight_number });
-    this.setState({ images: response.data.name });
-    this.setState({ images: response.data.date_local });
+    // this.setState({ images: response.data.flight_number });
+    // this.setState({ images: response.data.name });
+    // this.setState({ images: response.data.date_local });
 
     console.log(response.data.links.patch);
     console.log(response.data.flight_number);
